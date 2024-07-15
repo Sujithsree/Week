@@ -1,0 +1,697 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+nav{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+}
+
+.leftside{
+    height: 60px;
+    width: 50%;
+    float: left;
+}
+
+.leftside .logo{
+    padding: 5px 50px;
+    float: left;
+}
+
+.leftside ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bolder; 
+}
+
+.leftside li{
+    display: inline-block;
+    padding: 0px 20px;
+    padding-top: 20px;
+}
+
+.leftside a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+.leftside li:hover{
+    background-color: rgb(63, 63, 63);
+    padding: 0px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.rightside {
+    height: 60px;
+    width: 50%;
+    float: right;
+}
+
+.rightside .lan-logo{
+    padding-left: 350px;
+    padding-top: 20px;
+    float: left;
+}
+
+.rightside ul{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+
+.rightside li{
+    display: inline-block;
+    padding: 0px 10px;
+    padding-top: 20px; 
+}
+
+.rightside a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.rightside li:hover{
+    background-color: rgb(63, 63, 63);
+    padding: 0px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+nav button{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 80px;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+}
+
+nav button:hover{
+    background-color: rgb(233, 228, 238);
+    cursor: pointer;
+}
+
+a{
+    color:white!important;
+}
+
+
+
+
+
+
+
+
+.div1{
+    background-color: black;
+    height: 800px;
+    width: 100%;
+}
+
+.div1-letf{
+    height: 800px;
+    width: 50%;
+    float: left;
+}
+
+
+.div1-letf h1{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 130px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.div1-letf p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 15px;
+}
+
+
+.div-input1{
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 150px;
+    cursor: text;
+}
+
+.div-input1 input{
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 17px;
+    border: none;
+}
+
+.div-input1 #img2{
+    float: right;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.div-input1 #img1,#img3{
+    margin-left: 10px;
+}
+
+
+.div-input2{
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 15px;
+    cursor: text;
+}
+
+.div-input2 input{
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 17px;
+    border: none;
+}
+
+
+.div1-letf button{
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 120px;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.div1-letf button:hover{
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+
+
+
+.div1-right{
+    height: 800px;
+    width: 50%;
+    float: left;
+}
+
+
+.div1-right img{
+    padding-left: 5px;
+    padding-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+.div2{
+    height: 650px;
+    width: 100%;
+}
+
+.div2-left{
+    height: 650px;
+    width: 50%;
+    float: left;
+}
+
+
+.div2-left img{
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+.div2-right{
+    height: 650px;
+    width: 50%;
+    float: left;
+}
+
+
+.div2-right h1{
+    font-size: 55px;
+    padding-left: 120px;
+    padding-right: 150px;
+    padding-top: 120px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+.div2-right p{
+    font-size: 18px;
+    padding-left: 120px;
+    padding-right: 225px;
+    padding-top: 25px;
+    
+}
+
+
+.div2-right button{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 120px;
+    border: none;
+}
+
+
+
+.div2-right .p1{
+    font-size: 18px;
+    margin-left: 160px;
+    margin-top: -60px;
+}
+
+
+
+
+
+
+
+
+
+.div3 {
+    height: 650px;
+    width: 100%;
+}
+
+
+.div3-left {
+    height: 650px;
+    width: 50%;
+    float: left;
+}
+
+
+.div3-left h1 {
+    color: black;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 130px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+.div3-left p {
+   font-size: 15px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+   padding-left: 150px;
+   padding-right: 150px;
+   margin-top: 30px;
+}
+
+
+.div3-left button {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 150px;
+    border: none;
+}
+
+.div3-left .p2 {
+    font-size: 15px;
+    margin-left: 160px;
+    margin-top: -35px;
+}
+
+
+.div3-right {
+    height: 650px;
+    width: 50%;
+    float: left;
+}
+
+.div3-right img {
+    padding-left: 5px;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+.div4 {
+    height: 750px;
+    width: 100%;
+}
+
+.div4-left {
+    height: 750px;
+    width: 50%;
+    float: left;
+}
+
+.div4-left img {
+    margin-left: 150px;
+    margin-top: 90px;
+}
+
+
+.div4-right {
+    height: 750px;
+    width: 50%;
+    float: left;
+}
+
+
+.div4-right h1 {
+    font-size: 35px;
+    padding-left: 120px;
+    padding-right: 150px;
+    padding-top: 240px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.div4-right p {
+    font-size: 18px;
+    padding-left: 120px;
+    padding-right: 225px;
+    padding-top: 25px;
+}
+
+
+.div4-right button {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 120px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+.div5 {
+    background-color: rgb(228, 223, 223);
+    height: 400px;
+    width: 100%;
+    float: left;
+}
+
+
+.div5-left {
+    height: 400px;
+    width: 50%;
+    float: left;
+}
+
+.div5-left h1 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 70px;
+    padding-left: 150px;
+}
+
+.div5-left-div1 {
+    background-color: white;
+    height: 200px;
+    width: 600px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.div5-left-div1 img {
+    padding: 25px;
+    float: left;
+}
+
+.div5-left-div1 h3 {
+    font-size: 25px;
+    padding-top: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+
+
+.div5-left-div1 p {
+   padding-top: 5px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 17px;
+}
+
+
+.div5-left-div1 #img2 {
+    float: right;
+    padding-top: 100px;
+}
+
+.div5-right {
+    height: 400px;
+    width: 50%;
+    float: left;
+}
+
+
+.div5-right-div1 {
+    background-color: white;
+    height: 200px;
+    width: 600px;
+    margin-left: 10px;
+    margin-top: 150px;
+}
+
+
+.div5-right-div1 img {
+    padding: 25px;
+    float: left;
+}
+
+
+.div5-right-div1 h3 {
+    font-size: 25px;
+    padding-top: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+
+
+.div5-right-div1 p {
+    padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+ }
+
+
+ .div5-right-div1 #img2 {
+    float: right;
+    padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+.div6 {
+    background-color: black;
+    width: 100%;
+    height: 920px;
+    float: left;
+}
+
+
+.div6 .img-logo {
+    margin-left: 150px;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+.div6 h4 {
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding-left: 150px;
+   padding-top: 10px;
+   cursor: pointer;
+}
+
+
+.div6 .div-footer {
+  background-color: black;
+  color: white;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+
+}
+
+
+.div-footer ul {
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+.div-footer a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.div-footer a:hover {
+    color: rgb(149, 149, 139);
+}
+
+
+.div6 .footer-icons {
+   width: 1350px;
+   height: 40px;
+   margin-top: 120px;
+   margin-left: 110px;
+   padding: 7px 10px;
+   display: flex;
+   
+  
+}
+
+.div6 .footer-iconleft  {
+    width: 50%;
+    
+}
+
+.div6 .footer-iconright  {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    margin-right: 110px;
+    cursor: pointer;
+}
+
+.div6 .footer-iconright-lang  {
+    display: inline;
+    margin-left: 30px;
+}
+
+
+.icons{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    padding: 5px 5px 6px 6px ;
+    border-radius: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.icons:hover{
+    background-color: rgb(184, 184, 181);
+}
+
+
+.divlogo-img {
+    margin-top: 40px;
+    
+}
+
+
+
+.divlogo-img .google-play {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.divlogo-img .App-store {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+
+.div6 .final-div {
+    width: 100%;
+    height: 20px;
+    margin-top: 60px;
+    display: flex;
+}
+
+
+.final-div .final-div-left {
+    width: 50%;
+    height: 20px;
+    padding-left: 150px;
+    font-size: 12px;
+    color: rgb(152, 149, 149);
+}
+
+
+.final-div .final-div-right {
+    width: 50%;
+    height: 20px;
+    margin-left: 700px;
+    font-size: 12px;
+    color: rgb(152, 149, 149);
+    display: flex;
+    gap: 30px;
+}
+
+
+.final-div .final-div-right :hover {
+   color: rgb(38, 38, 38);
+   cursor: pointer;
+}
